@@ -1,0 +1,133 @@
+/* Define custom variables */
+:root {
+    --primaryColor: darkcyan;
+    --secondaryColor: rgb(26, 48, 48);
+    --alternativeColor: rgb(12, 46, 110);
+    --redColor: rgb(102, 11, 11);
+    --whiteText:white;
+    /* none | h-offset (X) v-offset (Y) blur spread color |inset|initial|inherit*/
+    --mainBoxShadow: .3vw .3vw 1vw rgba(120, 200, 87, 11);
+}
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, section {
+    overflow-x: hidden;
+    background-image: linear-gradient( rgba(0, 4, 40, 0.7), rgba(0, 78, 146, 0.75), rgba(189, 195, 199, 0.7));
+}
+/* Header Styles */
+.logo {
+    height: 8rem;
+    scale: 1.055;
+    filter: invert(100%);
+}
+.logo:hover {
+    scale: 1.1;
+    animation: 2.15s linear spining infinite;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 8px black;
+    z-index: 20;
+}
+.nav-link:hover {
+    color: darkcyan !important;
+    scale: 1.05;
+  }
+  /* .guru{
+    margin: 0;
+    align-self: center !important;
+    text-align: center !important;
+    justify-content: center !important;
+    margin-left: 500px !important;
+  } */
+/* Main */
+main {
+    margin-top: 150px;
+}
+.img-fluids {
+    display: flex;
+    justify-content: space-evenly;
+}
+.bible {
+    border:4px solid black ;
+}
+/* NavBar */
+.nav-link:hover {
+    border-radius: 2rem;
+}
+/* Text-Shadowing */
+/* .kage {
+    text-shadow: 1px 1px 3px rgb(61, 109, 171) ;
+} */
+/* .kami {
+    text-shadow: 1px 1px 3px ;
+} */
+/* Main-Background-Bar  */
+.barney {
+    /* background: linear-gradient(90deg, rgba(129,158,148,1) 100%, rgba(0,212,255,1) 100%, rgba(23,22,52,1) 100%, rgba(27,80,77,1) 100%); */
+    background-color: #2F2E3D;
+}
+/* Image-Sizing */
+.resize {
+    width: 33.5rem;
+}
+/* End-Image-sizing */
+/* Contact Section */
+input, textarea {
+    width: 100%;
+    color: #222;
+    /* clear: both; */
+  }
+#contact {
+    overflow-y: hidden;
+}
+.offsite {
+    background-color:#fbfbfb;
+    border-style: groove;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 5px;
+    /* margin-left: 650px; */
+}
+  /* Footer */
+footer {
+    min-height: 6rem;
+    min-width: 90vw;
+}
+/* Icon-link-Images */
+.git-link {
+    width: 5rem;
+    filter: invert(85%);
+}
+.git-link:hover {
+    scale: 1.1;
+}
+.netlify-link {
+    filter: invert(85%);
+    width: 5.4rem;
+    height: 5rem;
+}
+.netlify-link:hover {
+    scale: 1.1;
+}
+/* End-Of-Welcome-Page-style */
+/* Animation-KeyFrame */
+@keyframes spining {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  /* Animation-KeyFrame (End) */
