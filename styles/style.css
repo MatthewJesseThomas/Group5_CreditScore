@@ -33,12 +33,13 @@ body, section {
     position: fixed;
     top: 0;
     width: 100%;
-    box-shadow: 0 0 8px black;
+    box-shadow: .3vw .3vw 8px black;
     z-index: 20;
 }
 .nav-link:hover {
     color: darkcyan !important;
     scale: 1.05;
+    text-shadow: .25vw .25vw 1vw darkcyan;
   }
   /* .guru{
     margin: 0;
