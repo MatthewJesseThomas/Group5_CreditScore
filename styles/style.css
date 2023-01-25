@@ -18,6 +18,8 @@
 body, section {
     overflow-x: hidden;
     background-image: linear-gradient( rgba(0, 4, 40, 0.7), rgba(0, 78, 146, 0.75), rgba(189, 195, 199, 0.7));
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* Header Styles */
 .logo {
@@ -58,8 +60,8 @@ main {
 }
 /* Main-Background-Bar  */
 .barney {
-    /* background: linear-gradient(90deg, rgba(129,158,148,1) 100%, rgba(0,212,255,1) 100%, rgba(23,22,52,1) 100%, rgba(27,80,77,1) 100%); */
-    background-color: #2F2E3D;
+    background: linear-gradient(90deg, rgba(129,158,148,1) 100%, rgba(0,212,255,1) 100%, rgba(23,22,52,1) 100%, rgba(27,80,77,1) 100%);
+    /* background-color: #2F2E3D; */
 }
 /* Image-Sizing */
 .resize {
